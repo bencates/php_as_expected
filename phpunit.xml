@@ -1,0 +1,8 @@
+<phpunit colors="true"
+         bootstrap="test/bootstrap.php" >
+    <testsuites>
+        <testsuite name="PHP As Expected">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
