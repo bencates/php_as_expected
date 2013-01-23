@@ -1,7 +1,9 @@
 <?php
 
+use PHPAsExpected\Expectations\Expectation;
+
 function expect($subject) {
-    return new PHPAsExpected\Expectations\Expectation($subject);
+    return new Expectation($subject);
 }
 
 
