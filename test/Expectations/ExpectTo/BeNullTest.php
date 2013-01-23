@@ -1,6 +1,6 @@
 <?php
 
-class BeNullTest extends PHPUnit_Framework_TestCase
+class ExpectTo_BeNullTest extends PHPUnit_Framework_TestCase
 {
     function testNullShouldPass() {
         expect(null)->toBeNull();

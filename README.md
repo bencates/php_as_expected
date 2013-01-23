@@ -40,5 +40,9 @@ class FooBarTest extends My_TestCase
 ## Supported Exceptions
 
 * `toBeTrue()`
+* `toBeTruthy()`
 * `toBeFalse()`
+* `toBeFalsy()`
 * `toBeNull()`
+* `toEqual($other)`
+* `toMatch($regex)`

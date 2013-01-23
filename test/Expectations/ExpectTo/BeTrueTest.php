@@ -1,6 +1,6 @@
 <?php
 
-class BeTrueTest extends PHPUnit_Framework_TestCase
+class ExpectTo_BeTrueTest extends PHPUnit_Framework_TestCase
 {
     function testTrueShouldPass() {
         expect(true)->toBeTrue();
